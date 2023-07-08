@@ -1,0 +1,165 @@
+body{
+    background: url('galaxy.jpg') center ;
+    color: #fff ;
+}
+.container-1 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1 {
+    display: flex;
+    border: 2px solid white;
+    /* background-color: rgb(225, 158, 15); */
+    padding: 10px;
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    justify-content: space-around;
+    /*to justify content, like add some space between two divs */
+}
+
+/* For giving some room for the buttons inside the div  */
+
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid rgb(232, 6, 6);
+    border-radius: 12%;
+    align-items: center;
+}
+
+.container-2 {
+    border: 2px solid white;
+    text-align: center;
+    /*for text to align in center*/
+    width: 75%;
+    /*so that it only takes 75% of width*/
+    margin: 0 auto;
+    /*When you have specified a width on the object that you have applied margin: 0 auto to, the object will sit centrally within it's parent container.
+
+Specifying auto as the second parameter
+ basically tells the browser to automatically 
+ determine the left and right margins itself,
+  which it does by setting them equally. 
+  It guarantees that the left and right margins
+   will be set to the same size. The first 
+   parameter 0 indicates that the top and
+    bottom margins will both be set to 0.
+
+margin-top: 0;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: auto;
+
+Therefore, to give you an example, if the 
+parent is 100px and the child is 50px, then
+ the auto property will determine that there's 
+ 50px of free space to share between margin-left
+  and margin-right:
+
+var freeSpace = 100 - 50;
+var equalShare = freeSpace / 2;
+
+Which would give:
+
+margin-left: 25;
+margin-right: 25;*/
+}
+
+.flex-box-container-2 {
+display: flex;
+/* padding: 10px; */
+flex-wrap: wrap;
+border: 2px solid white;
+justify-content: space-around;
+/* align-items: center; */ /*because it is not needed*/
+}
+
+.flex-box-container-2 img{
+    border: 2px solid white;
+    box-shadow: 0 10px 50px rgba(0,0,0,0.7);
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.container-3{
+    border: 1px solid violet;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.flex-box-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    justify-content: space-around;
+}
+.flex-box-container-3 img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+}
+.flex-box-container-3 img{
+    width: 150px;
+    height: 150px;
+}
+.color-red{
+    color: brown;
+}
+.container-4{
+    border: 2px solid white;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.flex_box_pick_color{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    justify-content: space-around;
+}
+.container-5{
+    border: 2px solid white;
+    width:75%;
+    text-align: center;
+    margin: 0 auto;
+}
+.flex_blackjack_row_1,.flex_blackjack_row_2,.flex_blackjack_row_3{
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    justify-content: space-around;
+}
+.flex_blackjack_row_1,.flex_blackjack_row_2{
+    background: url('Blackjack.png') center ;
+    color: #fff    /*Container's Text colour*/
+    /* #666666
+    #4c4c4c
+    #333333
+    #191919
+    #000000 */
+}
+.flex_blackjack_row_1 div{
+border: 4px solid yellowgreen;
+border-radius: 20%;
+flex: 1;          /* To get equal amount of space*/
+padding: 10px;
+height: 350px;
+width: 350px;
+text-align: center;
+}
+.flex_blackjack_row_2 div{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    /* flex: 1; */
+}
+.flex_blackjack_row_2 button{
+    border: 1px solid yellow;
+    /* padding: 20px; */
+    border-radius: 10px;
+}
+table,th,td{
+    border: 2px solid white;
+    padding: 5px;
+}
